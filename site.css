@@ -135,3 +135,13 @@ nav a:hover { text-decoration: underline; text-underline-offset: 4px; }
 .quick-choice { border: 1px solid #fffa; background: transparent; color: white; font-size: 13px; border-radius: 20px; padding: 5px 11px; cursor: pointer; }
 .quick-choice:hover { background: white; color: var(--cover); }
 #no-products { margin-top: 12px; color: var(--muted); }
+.short-section { margin-bottom: clamp(30px,6vw,72px); }
+.note { border-block: 1px solid var(--rule); display: grid; grid-template-columns: 1fr 1fr; gap: clamp(10px,3vw,35px); padding-block: clamp(18px,4vw,40px); }
+.note h2 { font-size: clamp(27px,3.2vw,44px); }
+.note p { margin-bottom: 7px; }
+.price-table { width: 100%; border-collapse: collapse; text-align: left; background: var(--panel); }
+.price-table th, .price-table td { border-bottom: 1px solid var(--rule); padding: clamp(8px,2vw,20px); }
+.price-table td { white-space: nowrap; }
+.table-foot { margin-top: 13px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; }
+#repeat-status { font-size: 13px; width: 100%; }
+@media (max-width: 630px) { .note { grid-template-columns: 1fr; } .note p { margin-top: 4px; } }
