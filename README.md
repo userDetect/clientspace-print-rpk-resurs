@@ -1,7 +1,9 @@
-# РПК «Ресурс» · демо ClientSpace
+# РПК «Ресурс» · концепт ClientSpace
 
-[Демо](https://userdetect.github.io/clientspace-print-rpk-resurs/) также можно открыть локально через любой статический HTTP-сервер.
+- [Демо сайта](https://userdetect.github.io/clientspace-print-rpk-resurs/)
+- [Демо CRM](https://userdetect.github.io/clientspace-print-rpk-resurs/crm.html)
+- [Действующий сайт](https://xn----7sbbagavscye2ftg.xn--p1ai/)
 
-Форма формирует черновик в браузере. Для приёма заказов понадобится подключить канал доставки заявок.
+Форма и CRM используют IndexedDB. Созданные в демо заявки и файлы хранятся в браузере. Сравнивать форму и CRM нужно в одном браузерном профиле.
 
-[Действующий сайт](https://xn----7sbbagavscye2ftg.xn--p1ai/)
+- [Фасад с подсветкой из материалов РПК «Ресурс»](https://xn----7sbbagavscye2ftg.xn--p1ai/)
